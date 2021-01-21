@@ -1,5 +1,5 @@
-I, [2021-01-21T12:29:35.984750 #19685]  INFO -- : Registered expected interaction GET /clients
-D, [2021-01-21T12:29:35.985038 #19685] DEBUG -- : {
+I, [2021-01-21T12:38:14.439731 #30039]  INFO -- : Registered expected interaction GET /clients
+D, [2021-01-21T12:38:14.440096 #30039] DEBUG -- : {
   "description": "a request for all clients",
   "providerState": "i have a list of clients",
   "request": {
@@ -37,8 +37,8 @@ D, [2021-01-21T12:29:35.985038 #19685] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2021-01-21T12:29:35.992903 #19685]  INFO -- : Received request GET /clients
-D, [2021-01-21T12:29:35.993055 #19685] DEBUG -- : {
+I, [2021-01-21T12:38:14.448488 #30039]  INFO -- : Received request GET /clients
+D, [2021-01-21T12:38:14.448589 #30039] DEBUG -- : {
   "path": "/clients",
   "query": "",
   "method": "get",
@@ -50,8 +50,8 @@ D, [2021-01-21T12:29:35.993055 #19685] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2021-01-21T12:29:35.993434 #19685]  INFO -- : Found matching response for GET /clients
-D, [2021-01-21T12:29:35.993554 #19685] DEBUG -- : {
+I, [2021-01-21T12:38:14.448884 #30039]  INFO -- : Found matching response for GET /clients
+D, [2021-01-21T12:38:14.448962 #30039] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json; charset=utf-8"
@@ -77,10 +77,10 @@ D, [2021-01-21T12:29:35.993554 #19685] DEBUG -- : {
     }
   ]
 }
-I, [2021-01-21T12:29:36.000522 #19685]  INFO -- : Verifying - interactions matched
-I, [2021-01-21T12:29:36.004703 #19685]  INFO -- : Cleared interactions
-I, [2021-01-21T12:29:36.010654 #19685]  INFO -- : Registered expected interaction POST /clients
-D, [2021-01-21T12:29:36.010807 #19685] DEBUG -- : {
+I, [2021-01-21T12:38:14.455677 #30039]  INFO -- : Verifying - interactions matched
+I, [2021-01-21T12:38:14.459748 #30039]  INFO -- : Cleared interactions
+I, [2021-01-21T12:38:14.465272 #30039]  INFO -- : Registered expected interaction POST /clients
+D, [2021-01-21T12:38:14.465403 #30039] DEBUG -- : {
   "description": "a request to create client with firstname and lastname",
   "providerState": "i create a new client",
   "request": {
@@ -108,8 +108,8 @@ D, [2021-01-21T12:29:36.010807 #19685] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2021-01-21T12:29:36.017115 #19685]  INFO -- : Received request POST /clients
-D, [2021-01-21T12:29:36.017307 #19685] DEBUG -- : {
+I, [2021-01-21T12:38:14.470134 #30039]  INFO -- : Received request POST /clients
+D, [2021-01-21T12:38:14.470248 #30039] DEBUG -- : {
   "path": "/clients",
   "query": "",
   "method": "post",
@@ -119,7 +119,7 @@ D, [2021-01-21T12:29:36.017307 #19685] DEBUG -- : {
     "age": 35
   },
   "headers": {
-    "Content-Length": "53",
+    "Content-Length": "50",
     "Content-Type": "application/json;charset=utf-8",
     "Accept": "application/json, text/plain, */*",
     "User-Agent": "axios/0.21.1",
@@ -128,8 +128,8 @@ D, [2021-01-21T12:29:36.017307 #19685] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2021-01-21T12:29:36.017618 #19685]  INFO -- : Found matching response for POST /clients
-D, [2021-01-21T12:29:36.017753 #19685] DEBUG -- : {
+I, [2021-01-21T12:38:14.470422 #30039]  INFO -- : Found matching response for POST /clients
+D, [2021-01-21T12:38:14.470492 #30039] DEBUG -- : {
   "status": 200,
   "headers": {
   },
@@ -140,6 +140,6 @@ D, [2021-01-21T12:29:36.017753 #19685] DEBUG -- : {
     "id": 3
   }
 }
-I, [2021-01-21T12:29:36.041347 #19685]  INFO -- : Verifying - interactions matched
-I, [2021-01-21T12:29:36.046460 #19685]  INFO -- : Cleared interactions
-I, [2021-01-21T12:29:36.051697 #19685]  INFO -- : Writing pact for ClientsService to /Users/brian.acosta/Documents/Dev/pact_demo/__tests__/contract/pacts/frontend-clientsservice.json
+I, [2021-01-21T12:38:14.490839 #30039]  INFO -- : Verifying - interactions matched
+I, [2021-01-21T12:38:14.495088 #30039]  INFO -- : Cleared interactions
+I, [2021-01-21T12:38:14.500287 #30039]  INFO -- : Writing pact for ClientsService to /Users/brian.acosta/Documents/Dev/pact_demo/__tests__/contract/pacts/frontend-clientsservice.json

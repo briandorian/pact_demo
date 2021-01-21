@@ -55,7 +55,7 @@
         "body": {
           "firstName": "Brian",
           "lastName": "Acosta",
-          "age": 29
+          "age": 35
         }
       },
       "response": {
@@ -65,7 +65,7 @@
         "body": {
           "firstName": "Brian",
           "lastName": "Acosta",
-          "age": 29,
+          "age": 35,
           "id": 3
         }
       }
