@@ -1,0 +1,145 @@
+I, [2021-01-21T12:29:35.984750 #19685]  INFO -- : Registered expected interaction GET /clients
+D, [2021-01-21T12:29:35.985038 #19685] DEBUG -- : {
+  "description": "a request for all clients",
+  "providerState": "i have a list of clients",
+  "request": {
+    "method": "GET",
+    "path": "/clients",
+    "headers": {
+      "Accept": "application/json, text/plain, */*"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": [
+      {
+        "firstName": "Lisa",
+        "lastName": "Simpson",
+        "age": 8,
+        "id": 1
+      },
+      {
+        "firstName": "Wonder",
+        "lastName": "Woman",
+        "age": 30,
+        "id": 2
+      },
+      {
+        "firstName": "Homer",
+        "lastName": "Simpson",
+        "age": 39,
+        "id": 3
+      }
+    ]
+  },
+  "metadata": null
+}
+I, [2021-01-21T12:29:35.992903 #19685]  INFO -- : Received request GET /clients
+D, [2021-01-21T12:29:35.993055 #19685] DEBUG -- : {
+  "path": "/clients",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json, text/plain, */*",
+    "User-Agent": "axios/0.21.1",
+    "Host": "localhost:8081",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2021-01-21T12:29:35.993434 #19685]  INFO -- : Found matching response for GET /clients
+D, [2021-01-21T12:29:35.993554 #19685] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": [
+    {
+      "firstName": "Lisa",
+      "lastName": "Simpson",
+      "age": 8,
+      "id": 1
+    },
+    {
+      "firstName": "Wonder",
+      "lastName": "Woman",
+      "age": 30,
+      "id": 2
+    },
+    {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "age": 39,
+      "id": 3
+    }
+  ]
+}
+I, [2021-01-21T12:29:36.000522 #19685]  INFO -- : Verifying - interactions matched
+I, [2021-01-21T12:29:36.004703 #19685]  INFO -- : Cleared interactions
+I, [2021-01-21T12:29:36.010654 #19685]  INFO -- : Registered expected interaction POST /clients
+D, [2021-01-21T12:29:36.010807 #19685] DEBUG -- : {
+  "description": "a request to create client with firstname and lastname",
+  "providerState": "i create a new client",
+  "request": {
+    "method": "POST",
+    "path": "/clients",
+    "headers": {
+      "Content-Type": "application/json;charset=utf-8"
+    },
+    "body": {
+      "firstName": "Rafaela",
+      "lastName": "Azevedo",
+      "age": 29
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    },
+    "body": {
+      "firstName": "Rafaela",
+      "lastName": "Azevedo",
+      "age": 29,
+      "id": 3
+    }
+  },
+  "metadata": null
+}
+I, [2021-01-21T12:29:36.017115 #19685]  INFO -- : Received request POST /clients
+D, [2021-01-21T12:29:36.017307 #19685] DEBUG -- : {
+  "path": "/clients",
+  "query": "",
+  "method": "post",
+  "body": {
+    "firstName": "Rafaela",
+    "lastName": "Azevedo",
+    "age": 29
+  },
+  "headers": {
+    "Content-Length": "53",
+    "Content-Type": "application/json;charset=utf-8",
+    "Accept": "application/json, text/plain, */*",
+    "User-Agent": "axios/0.21.1",
+    "Host": "localhost:8081",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2021-01-21T12:29:36.017618 #19685]  INFO -- : Found matching response for POST /clients
+D, [2021-01-21T12:29:36.017753 #19685] DEBUG -- : {
+  "status": 200,
+  "headers": {
+  },
+  "body": {
+    "firstName": "Rafaela",
+    "lastName": "Azevedo",
+    "age": 29,
+    "id": 3
+  }
+}
+I, [2021-01-21T12:29:36.041347 #19685]  INFO -- : Verifying - interactions matched
+I, [2021-01-21T12:29:36.046460 #19685]  INFO -- : Cleared interactions
+I, [2021-01-21T12:29:36.051697 #19685]  INFO -- : Writing pact for ClientsService to /Users/brian.acosta/Documents/Dev/pact_demo/__tests__/contract/pacts/frontend-clientsservice.json
