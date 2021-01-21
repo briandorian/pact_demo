@@ -58,15 +58,15 @@ afterEach(() => provider.verify())
   })
   
   const POST_BODY = { 
-    firstName: "Rafaela", 
-    lastName: "Azevedo",
-    age: 29
+    firstName: "Brian", 
+    lastName: "Acosta",
+    age: 35
   }
 
 const POST_EXPECTED_BODY = {
-    firstName: "Rafaela", 
-    lastName: "Azevedo",
-    age: 29,
+    firstName: "Brian", 
+    lastName: "Acosta",
+    age: 35,
     id: 3,
   }
 

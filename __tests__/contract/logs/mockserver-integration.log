@@ -90,9 +90,9 @@ D, [2021-01-21T12:29:36.010807 #19685] DEBUG -- : {
       "Content-Type": "application/json;charset=utf-8"
     },
     "body": {
-      "firstName": "Rafaela",
-      "lastName": "Azevedo",
-      "age": 29
+      "firstName": "Brian",
+      "lastName": "Acosta",
+      "age": 35
     }
   },
   "response": {
@@ -100,9 +100,9 @@ D, [2021-01-21T12:29:36.010807 #19685] DEBUG -- : {
     "headers": {
     },
     "body": {
-      "firstName": "Rafaela",
-      "lastName": "Azevedo",
-      "age": 29,
+      "firstName": "Brian",
+      "lastName": "Acosta",
+      "age": 35,
       "id": 3
     }
   },
@@ -114,9 +114,9 @@ D, [2021-01-21T12:29:36.017307 #19685] DEBUG -- : {
   "query": "",
   "method": "post",
   "body": {
-    "firstName": "Rafaela",
-    "lastName": "Azevedo",
-    "age": 29
+    "firstName": "Brian",
+    "lastName": "Acosta",
+    "age": 35
   },
   "headers": {
     "Content-Length": "53",
@@ -134,9 +134,9 @@ D, [2021-01-21T12:29:36.017753 #19685] DEBUG -- : {
   "headers": {
   },
   "body": {
-    "firstName": "Rafaela",
-    "lastName": "Azevedo",
-    "age": 29,
+    "firstName": "Brian",
+    "lastName": "Acosta",
+    "age": 35,
     "id": 3
   }
 }
