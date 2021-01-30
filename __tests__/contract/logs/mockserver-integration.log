@@ -1,5 +1,5 @@
-I, [2021-01-21T12:38:14.439731 #30039]  INFO -- : Registered expected interaction GET /clients
-D, [2021-01-21T12:38:14.440096 #30039] DEBUG -- : {
+I, [2021-01-30T18:51:34.781366 #89900]  INFO -- : Registered expected interaction GET /clients
+D, [2021-01-30T18:51:34.781666 #89900] DEBUG -- : {
   "description": "a request for all clients",
   "providerState": "i have a list of clients",
   "request": {
@@ -37,8 +37,8 @@ D, [2021-01-21T12:38:14.440096 #30039] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2021-01-21T12:38:14.448488 #30039]  INFO -- : Received request GET /clients
-D, [2021-01-21T12:38:14.448589 #30039] DEBUG -- : {
+I, [2021-01-30T18:51:34.791143 #89900]  INFO -- : Received request GET /clients
+D, [2021-01-30T18:51:34.791264 #89900] DEBUG -- : {
   "path": "/clients",
   "query": "",
   "method": "get",
@@ -50,8 +50,8 @@ D, [2021-01-21T12:38:14.448589 #30039] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2021-01-21T12:38:14.448884 #30039]  INFO -- : Found matching response for GET /clients
-D, [2021-01-21T12:38:14.448962 #30039] DEBUG -- : {
+I, [2021-01-30T18:51:34.791623 #89900]  INFO -- : Found matching response for GET /clients
+D, [2021-01-30T18:51:34.791749 #89900] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json; charset=utf-8"
@@ -77,10 +77,10 @@ D, [2021-01-21T12:38:14.448962 #30039] DEBUG -- : {
     }
   ]
 }
-I, [2021-01-21T12:38:14.455677 #30039]  INFO -- : Verifying - interactions matched
-I, [2021-01-21T12:38:14.459748 #30039]  INFO -- : Cleared interactions
-I, [2021-01-21T12:38:14.465272 #30039]  INFO -- : Registered expected interaction POST /clients
-D, [2021-01-21T12:38:14.465403 #30039] DEBUG -- : {
+I, [2021-01-30T18:51:34.799797 #89900]  INFO -- : Verifying - interactions matched
+I, [2021-01-30T18:51:34.804643 #89900]  INFO -- : Cleared interactions
+I, [2021-01-30T18:51:34.811158 #89900]  INFO -- : Registered expected interaction POST /clients
+D, [2021-01-30T18:51:34.811316 #89900] DEBUG -- : {
   "description": "a request to create client with firstname and lastname",
   "providerState": "i create a new client",
   "request": {
@@ -108,8 +108,8 @@ D, [2021-01-21T12:38:14.465403 #30039] DEBUG -- : {
   },
   "metadata": null
 }
-I, [2021-01-21T12:38:14.470134 #30039]  INFO -- : Received request POST /clients
-D, [2021-01-21T12:38:14.470248 #30039] DEBUG -- : {
+I, [2021-01-30T18:51:34.817414 #89900]  INFO -- : Received request POST /clients
+D, [2021-01-30T18:51:34.817567 #89900] DEBUG -- : {
   "path": "/clients",
   "query": "",
   "method": "post",
@@ -128,8 +128,8 @@ D, [2021-01-21T12:38:14.470248 #30039] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2021-01-21T12:38:14.470422 #30039]  INFO -- : Found matching response for POST /clients
-D, [2021-01-21T12:38:14.470492 #30039] DEBUG -- : {
+I, [2021-01-30T18:51:34.817782 #89900]  INFO -- : Found matching response for POST /clients
+D, [2021-01-30T18:51:34.817855 #89900] DEBUG -- : {
   "status": 200,
   "headers": {
   },
@@ -140,6 +140,6 @@ D, [2021-01-21T12:38:14.470492 #30039] DEBUG -- : {
     "id": 3
   }
 }
-I, [2021-01-21T12:38:14.490839 #30039]  INFO -- : Verifying - interactions matched
-I, [2021-01-21T12:38:14.495088 #30039]  INFO -- : Cleared interactions
-I, [2021-01-21T12:38:14.500287 #30039]  INFO -- : Writing pact for ClientsService to /Users/brian.acosta/Documents/Dev/pact_demo/__tests__/contract/pacts/frontend-clientsservice.json
+I, [2021-01-30T18:51:34.836611 #89900]  INFO -- : Verifying - interactions matched
+I, [2021-01-30T18:51:34.840724 #89900]  INFO -- : Cleared interactions
+I, [2021-01-30T18:51:34.845597 #89900]  INFO -- : Writing pact for ClientsService to /Users/brian.acosta/Documents/Dev/pact_demo/__tests__/contract/pacts/frontend-clientsservice.json
